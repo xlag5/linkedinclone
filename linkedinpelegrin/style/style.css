@@ -1,0 +1,154 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: inline;
+    border-bottom: 1px solid rgb(218, 218, 218);
+
+}
+header menu ul img{
+    margin-left: 10px;
+    width: 60px;
+    
+}
+.search{
+    
+    width: 260px;
+    height: 35px;
+    background-color: #EDF3F8;
+    border-radius: 5px;
+    border-style: hidden;
+    position: relative;
+    top: -30px;
+    background-image: url(/img/lupa.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-left: 35px;
+    
+}
+
+
+img[src="img/linkedin.png"]{
+   
+    margin-left: 20%;
+}
+img[src="img/home.png"]{
+    margin-left: 170px;
+}
+img[src="img/me.png"]{
+    width: 45px ;
+}
+img[src="img/trypremium.png"]{
+    width: 100px ;
+}
+img[src="img/forbusiness.png"]{
+    width: 100px;
+}
+img[src="img/notifications.png"]{
+    width: 70px;
+}
+img[src="img/mynetwork.png"]{
+    width: 70px;
+}
+img[src="img/jobs.png"]{
+    width: 50px;
+}
+hr{
+
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+}
+/*header ok*/
+.body{
+    background-color: #F4F2EE;
+}
+.box{
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    border-width: 1px;
+    width: 800px;
+    height: 225px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 8px;
+}
+.blind{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    background-image: url(/img/back.png);
+}
+.perfil{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top:-20px;
+}
+.dados img{
+    width: 180px;
+    border-radius: 100%;
+}
+.dados{
+    padding: 20px;
+    position: relative;
+    top: -160px;
+}
+.letra{
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.gray{
+
+    color: gray;
+}
+/*perfil ok*/
+.about{
+  height: max-content;
+  border-radius: 10px;
+
+}
+.about p{
+    font-size: 15px;
+}
+/*about ok*/
+.xp{
+    height: max-content;
+    border-radius: 10px;
+    
+}
+.flex{
+    display: flex;
+}
+.bloco{
+   
+   padding: 10px;
+}
+/*xp ok*/
+.formacoes{
+    height: max-content;
+    border-radius: 10px;
+}
+.foraca{
+    display: flex;
+    padding: 10px;
+}
+.foraca .img{
+    width: 40%;
+    max-width: 50px;
+    max-height: 50px;
+}
+.foraca > h6,h3{
+    font-weight: 100;
+    
+}
+.drop{
+   width:48% ;
+   padding-left: 10px;
+}
